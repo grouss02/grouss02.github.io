@@ -1,31 +1,44 @@
-<!DOCTYPE html>
-<html>
-  <!-- Note that these are comments -->
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- You can title your website whatever you want -->
-    <title>My first website</title>
-    <!-- The code below includes your new stylesheet we just created -->
-    <link rel="stylesheet" href="main.css">
-    <!-- I’m using the font Quicksand from Google, but you can use any other font by grabbing
-its link here: https://fonts.google.com/ AND updating your stylesheet -->
-    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap"
-rel="stylesheet">
-  </head>
-<body>
-    <!-- The <h1> tag will make the text larger on the screen -->
-    <h1>Hello World!</h1>
-    <!-- The <p> tag starts a new paragraph (a new line!) -->
-    <p>This is my personal website, hosted with GitHub Pages.</p>
-    <p>Add some text here to describe your photo, or describe yourself!</p>
-    <p>To look at some other fun photos and facts about me,
-       go to my <a href="fun.html">fun, miscellaneous page</a>!</p>
-    <!-- The <a href="..." tag will let you include a link on your website -->
-    <p><a href="https://github.com/ashleysuh">Link to my Github profile</a></p>
-    <!-- Try updating these links to point to something related to you, like your Twitter,
-etc. -->
-    <p><a href="https://www.eecs.tufts.edu/~asuh/">Link to my Tufts website</a></p>
-</div>
-</body>
-</html>
+<style>
+  link {
+    /* Changes the color of the link URLs on your site */
+    color: #0099FF;
+  }
+  a, a:link, a:visited {
+    /* Changes the color of any link URL that's been visited before */
+    color: #0099FF;
+} a:hover {
+    /* Changes the color of the link URL when you hover over it */
+    color: #FF9933;
+    /* Changes the background color of the link URL when you hover over it */
+    background-color: #0099FF;
+} body {
+    /* Adds a background color to my site, or at least the content between the <body> tags
+*/
+    background-color: #CBC3E3;
+    /* If you want to use a different font, make sure you update it here! */
+    font-family: 'Quicksand', sans-serif;
+    /* Change the pixel size for your font */
+    font-size: 16px;
+    /* Align your text */
+    vertical-align: bottom;
+    /* Set the color of the text inside of the <body> tags */
+    color: #505050;
+}
+  /* We will use the centering styling here for our <divs>, but it will only work when we
+use class=center */
+  }
+/* This code would center the content horizontally AND vertically */
+/* You can try commenting out the above "center" code and un-commenting the below code to
+see the difference */
+ /*
+ .center {
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+padding: 10px;
+.center {
+ margin: auto;
+ width: 65%;
+ padding: 10px;
+} */ </style>
