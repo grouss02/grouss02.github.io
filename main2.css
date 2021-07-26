@@ -1,11 +1,9 @@
 <style>
-    background-color: #0099FF;
-} body {
-    /* Adds a background color to my site, or at least the content between the <body> tags
-*/
+
+body {
     background-color: #9ABB91;
     /* If you want to use a different font, make sure you update it here! */
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Lato', sans-serif;
     /* Change the pixel size for your font */
     font-size: 16px;
     /* Align your text */
@@ -15,7 +13,7 @@
 }
   /* We will use the centering styling here for our <divs>, but it will only work when we
 use class=center */
-  }
+  
 /* This code would center the content horizontally AND vertically */
 /* You can try commenting out the above "center" code and un-commenting the below code to
 see the difference */
