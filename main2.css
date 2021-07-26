@@ -1,15 +1,4 @@
 <style>
-  link {
-    /* Changes the color of the link URLs on your site */
-    color: #0099FF;
-  }
-  a, a:link, a:visited {
-    /* Changes the color of any link URL that's been visited before */
-    color: #0099FF;
-} a:hover {
-    /* Changes the color of the link URL when you hover over it */
-    color: #FF9933;
-    /* Changes the background color of the link URL when you hover over it */
     background-color: #0099FF;
 } body {
     /* Adds a background color to my site, or at least the content between the <body> tags
